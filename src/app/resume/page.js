@@ -93,7 +93,7 @@ const Page = () => {
               <p className="timeline-text">
                 Lead the development of UI/UX design for mobile applications and
                 websites, creating user experience and visual impact. Directed
-                high-quality video content for the company’s YouTube channel.
+                high-quality video content for the company YouTube channel.
                 Conducted user research, usability testing, and stayed updated
                 on industry trends for innovative design solutions.
               </p>
