@@ -45,15 +45,14 @@ const About = () => {
         <section className="about-text">
           <p>
             Experienced UI/UX Designer specializing in creating intuitive,
-            user-centered designs for web and mobile platforms.
-          </p>
-
-          <p>
+            user-centered designs for web and mobile platforms. 
             Skilled in wireframing, prototyping, and responsive design,
             delivering functional and visually appealing interfaces. Adept at
             aligning user needs with business goals to enhance digital
-            experiences.
+            experiences
           </p>
+
+          
         </section>
 
         <section className="service">

@@ -24,7 +24,6 @@ const Sidebar = () => {
           <h1 className="name tracking-wide" title="Uttam Singhal">
             Uttam Singhal
           </h1>
-
           <p className="title">UI/UX Designer & Web Developer</p>
         </div>
 
@@ -70,7 +69,7 @@ const Sidebar = () => {
             </div>
           </li>
 
-          <li className="contact-item">
+          {/* <li className="contact-item">
             <div className="icon-box">
               <LiaBirthdayCakeSolid />
             </div>
@@ -80,7 +79,7 @@ const Sidebar = () => {
 
               <time dateTime="1982-06-23">October 06, 2001</time>
             </div>
-          </li>
+          </li> */}
 
           <li className="contact-item">
             <div className="icon-box">

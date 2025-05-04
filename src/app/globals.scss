@@ -381,6 +381,9 @@ main {
   box-shadow: var(--shadow-2);
   transition: var(--transition-1);
   z-index: 1;
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
 
 .info_more-btn::before {
@@ -1055,7 +1058,12 @@ textarea.form-input::-webkit-resizer {
  * responsive larger than 450px screen
  */
 
-@media (min-width: 450px) {
+@media (min-width: 375px) {
+
+  .social-list-side {
+    display: flex;
+    gap: 40px;
+  }
 
   /**
    * client
@@ -1087,6 +1095,12 @@ textarea.form-input::-webkit-resizer {
  */
 
 @media (min-width: 580px) {
+  .social-list-side {
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+
+  }
 
   /**
    * CUSTOM PROPERTY
@@ -1208,10 +1222,10 @@ textarea.form-input::-webkit-resizer {
     gap: 20px;
   }
 
-  .contact-info {
-    max-width: calc(100% - 64px);
-    width: calc(100% - 64px);
-  }
+  // .contact-info {
+  //   max-width: calc(100% - 64px);
+  //   width: calc(100% - 64px);
+  // }
 
 
 
@@ -1351,6 +1365,11 @@ textarea.form-input::-webkit-resizer {
  */
 
 @media (min-width: 768px) {
+  .social-list-side {
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+  }
 
   /**
    * REUSED STYLE
@@ -1456,6 +1475,12 @@ textarea.form-input::-webkit-resizer {
  */
 
 @media (min-width: 1024px) {
+.social-list-side {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+
 
   /**
    * CUSTOM PROPERTY
@@ -1974,8 +1999,9 @@ $cta-color: #f6880a;
 }
 
 .social-list-side {
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
+  // gap: 10px;
 }
 
 .social-item-side {
@@ -1986,8 +2012,8 @@ $cta-color: #f6880a;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
     position: relative;
     color: #fff;
 
@@ -1995,8 +2021,8 @@ $cta-color: #f6880a;
       position: absolute;
       z-index: 10;
       transition: all 0.3s linear;
-      width: 34px;
-      height: 34px;
+      width: 40px;
+      height: 40px;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%) scale(0);

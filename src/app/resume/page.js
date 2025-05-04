@@ -47,9 +47,20 @@ const Page = () => {
 
           <ol className="timeline-list">
             <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">E Software Solution</h4>
+
+              <span>Jan 2025 — Present</span>
+
+              <p className="timeline-text">
+              Designed and developed responsive dashboards for Cyber Security analytics, improving data visualization and user
+              experience.
+              Developed a clean and structured UI for an Asset Management System, ensuring seamless inventory tracking.
+              </p>
+            </li>
+            <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Sukrut Associates</h4>
 
-              <span>June 2024 — Present</span>
+              <span>June 2024 — December</span>
 
               <p className="timeline-text">
                 Developed a Retailer and Wholesaler E-commerce Panel, focusing
@@ -63,7 +74,7 @@ const Page = () => {
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Urban-Chat</h4>
 
-              <span>September 2023 — May 2024</span>
+              <span>August 2023 — May 2024</span>
 
               <p className="timeline-text">
                 Designed the interface for an advanced AI chat and support
@@ -77,7 +88,7 @@ const Page = () => {
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title"> Apna Konnect</h4>
 
-              <span>March 2023 — June 2023</span>
+              <span>Jan 2023 — July 2023</span>
 
               <p className="timeline-text">
                 Lead the development of UI/UX design for mobile applications and
