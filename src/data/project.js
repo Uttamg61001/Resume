@@ -28,6 +28,14 @@ const projectsData = [
         link: 'https://www.figma.com/design/FPCZiEd5udisHfhnFtT6Km/Cleaning-services-website-landing-page-(Community)?node-id=2-2&t=bzWQsQTbeSEfCQPa-1',
     },
     {
+        title: 'Powered by AI',
+        category: 'Web Design',
+        imgSrc: '/assets/images/thumbnail 9.jpg',
+        imgAlt: 'Design',
+        link: 'https://www.figma.com/design/Necv44SJ9Qik7q8G5Zhoj6/Untitled?node-id=1-675&t=obfovtNgBErxrJy3-1',
+    },
+
+    {
         title: 'Mandiram',
         category: 'applications',
         imgSrc: '/assets/images/thumbnail 6.jpg',

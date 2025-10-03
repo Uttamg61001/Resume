@@ -52,9 +52,11 @@ const Page = () => {
               <span>Jan 2025 — Present</span>
 
               <p className="timeline-text">
-              Designed and developed responsive dashboards for Cyber Security analytics, improving data visualization and user
-              experience.
-              Developed a clean and structured UI for an Asset Management System, ensuring seamless inventory tracking.
+               Focused on making complex IoT data easy to understand with clear dashboards, status updates, and alerts.
+               Designed unified dashboards in Figma to bring Trello, Xero, HubSpot, and Net360 together in one platform.
+               Created user flows and prototypes for managing projects, finances, and CRM data seamlessly.
+               Designed and developed responsive dashboards for Cyber Security analytics, improving data visualization and
+               user experience.
               </p>
             </li>
             <li className="timeline-item">
@@ -149,14 +151,14 @@ const Page = () => {
 
             <li className="skills-item">
               <div className="title-wrapper">
-                <h5 className="h5">WordPress</h5>
-                <data value="50">50%</data>
+                <h5 className="h5">Mobile App Design</h5>
+                <data value="100">100%</data>
               </div>
 
               <div className="skill-progress-bg">
                 <div
                   className="skill-progress-fill"
-                  style={{ width: " 50%" }}
+                  style={{ width: " 100%" }}
                 ></div>
               </div>
             </li>
